@@ -1,0 +1,3 @@
+flywheel-sdk>=17.0
+pandas>=1.5
+openpyxl>=3.0

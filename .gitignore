@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Local data / working directories (never commit study data)
+raw-data/
+*_organized/
+organized-data/
+convert-eprime/
+
+# Environments
+.venv/
+venv/
+env/
