@@ -21,6 +21,22 @@ pip install -r requirements.txt
 
 You'll need to `conda activate flywheel-upload` again in any new terminal session before running the script.
 
+### CU Boulder HPC (Blanca / PetaLibrary)
+
+If you're running this on CU Boulder's HPC, use the shared conda environment instead of creating
+your own. Follow the INC documentation's instructions for
+[setting up conda environments](https://inc-documentation.readthedocs.io/en/latest/pl_and_blanca_basics.html#setting-up-conda-environments),
+then:
+
+```bash
+module load anaconda
+conda activate incenv
+pip install -r requirements.txt
+```
+
+You'll need to run `module load anaconda` and `conda activate incenv` again in any new job/login
+session before running the script.
+
 ## 2. Clone the convert-eprime repo (only needed for `--convert-eprime`)
 
 If you have raw E-Prime `.txt` logs (rather than already-exported `.csv`/`.xlsx` files), clone
